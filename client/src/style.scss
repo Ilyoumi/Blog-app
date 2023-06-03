@@ -69,16 +69,21 @@ $lightGreen: #b9e7e7;
 				justify-content: space-between;
 				.logo {
 					img {
-						width: 150px;
+						width: 180px;
 					}
 				}
 				.links {
 					display: flex;
 					align-items: center;
 					gap: 10px;
+                         
 					h6 {
 						font-size: 16px;
 						font-weight: 300;
+                              &:hover{
+                                   color: lightsalmon;
+                                   font-weight: bold;
+                              }
 					}
 					span {
 						cursor: pointer;
@@ -118,13 +123,14 @@ $lightGreen: #b9e7e7;
 		.footer {
 			margin-top: 100px;
 			padding: 20px;
-			background-color: $lightGreen;
+			background-color: rgb(247, 224, 215);
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
 			font-size: 12px;
 			img {
-				height: 50px;
+
+				height: 80px;
 			}
 		}
 
